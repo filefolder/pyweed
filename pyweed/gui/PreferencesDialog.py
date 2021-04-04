@@ -12,7 +12,7 @@ Preferences dialog
 from PyQt5 import QtWidgets
 from pyweed.gui.uic import PreferencesDialog
 from logging import getLogger
-from obspy.clients.fdsn.header import URL_MAPPINGS
+from pyweed.FDSN_SERVERS import URL_MAPPINGS
 from pyweed.preferences import safe_int
 from pyweed.gui.Adapters import ComboBoxAdapter
 
