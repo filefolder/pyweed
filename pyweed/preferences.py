@@ -100,7 +100,7 @@ class Preferences(object):
         self.Waveforms.saveDir = user_save_path()
         self.Waveforms.timeWindowBefore = "60"  # seconds
         self.Waveforms.timeWindowBeforePhase = "P"  # P|S|Event
-        self.Waveforms.timeWindowAfter = "600"  # seconds
+        self.Waveforms.timeWindowAfter = "120"  # seconds
         self.Waveforms.timeWindowAfterPhase = "P"  # P|S|Event
         self.Waveforms.saveFormat = "MSEED"
         self.Waveforms.useEventTime = "n"
