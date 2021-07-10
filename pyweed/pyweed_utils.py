@@ -207,8 +207,10 @@ def get_event_mag_str(event):
 
 
 def get_event_description(event):
-    return str(event.event_descriptions[0].text).title()
-
+    if event.event_descriptions:
+        return str(event.event_descriptions[0].text).title()
+    else:
+        return 'no event description'
 
 def get_preferred_origin(event):
     """
